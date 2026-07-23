@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const API_BASE_URL = window.AI_RESUME_API_URL || 'http://localhost:8080';
+  const API_BASE_URL = window.AI_RESUME_API_URL || 'https://ai-resume-analyzer-1-r0nq.onrender.com/api/resume/analyze';
   const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
   let selectedResumeFile = null;
   const $ = (id) => document.getElementById(id);
